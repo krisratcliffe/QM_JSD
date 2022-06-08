@@ -7,5 +7,6 @@ $('div[data-hookscript="SplitScreen"]').each(function() {
         this.append("<script>SplitScreen()</script>")
         var splitScreenAdded = 1;
         SplitScreen();
+        //xys
     }    
 });
