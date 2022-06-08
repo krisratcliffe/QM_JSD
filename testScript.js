@@ -1,1 +1,1 @@
-alert("This is running from an external github repo, via jsdeliver!")
+document.write('<script src="https://cdn.jsdelivr.net/gh/krisratcliffe/QM_JSD@main/includedscripts/SplitScreen.js" type="text/javascript"></script>');
