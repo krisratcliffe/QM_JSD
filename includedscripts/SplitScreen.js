@@ -18,6 +18,7 @@ var isICAEWExamType =
 	}).length > 0; // If one or more are returned, then we have the new exam stuff present
 
 function SplitScreen() {
+	console.log("on q load, fire splitscreen?")
 	var isEndOfAssessment = !!$('body').attr('endofassessment');
 	var isSafeScreenWidth = document.body.offsetWidth > 1024;
 
